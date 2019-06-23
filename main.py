@@ -61,7 +61,7 @@ def run():
     #scaler.fit(ones)
     #scaler.transform(ones)
     learning_rate = 0.00000095699
-    num_iterations = 100000
+    num_iterations = 1000
     
     m = gd(ones,learning_rate,num_iterations)
     return m
